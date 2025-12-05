@@ -1,6 +1,12 @@
 # 🛡️ Web3 Guard
 
+**Category:** FinTech | **Theme:** Innovating with Google Cloud
+
 AI-powered Web3 transaction security checker using Google Cloud Gemini API.
+
+## 🚀 Hackathon Project: ALX x Google Cloud 2025
+
+This project demonstrates **innovation in FinTech** by leveraging **Google Cloud's Gemini AI** to solve a critical security problem in the blockchain space: transaction blindness.
 
 ## Problem
 Users lose millions in crypto scams because they don't understand what transactions do before signing them.
