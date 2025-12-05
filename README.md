@@ -23,7 +23,7 @@ Chrome extension that analyzes any Web3 transaction and provides instant securit
 - Vanilla JavaScript
 
 ## Demo
-[Add screenshot here]
+<img width="1067" height="575" alt="Screenshot 2025-12-05 at 13 37 54" src="https://github.com/user-attachments/assets/c9aa08c2-6d27-45c6-b600-ece2e5f892cb" />
 
 ## Installation
 
@@ -44,15 +44,14 @@ Chrome extension that analyzes any Web3 transaction and provides instant securit
 Or use quick test buttons to see examples.
 
 ## Post-Hackathon Plans
+- Google Cloud Functions to avoid API key hassle
 - Auto-detect transactions on Web3 sites
-- Integration with MetaMask
 - Database of known scam contracts
 - Real-time alerts
-- Mobile app version
 
 ## Team
-[Team Duolingo]
+Team Duolingo
 - Andrew Kim
 - Immaculate Munde
 
-Built for ALX x Google Cloud Hackathon 2024
+Built for ALX x Google Cloud Hackathon 2025
