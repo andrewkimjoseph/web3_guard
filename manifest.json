@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Web3 Guard",
+  "version": "1.0",
+  "description": "AI-powered Web3 transaction security checker",
+  "permissions": ["activeTab", "storage"],
+  "host_permissions": [
+    "https://generativelanguage.googleapis.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Web3 Guard"
+  },
+  "options_page": "options.html",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
