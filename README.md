@@ -51,7 +51,11 @@ Or use quick test buttons to see examples.
 
 ## Team
 Team Duolingo
-- Andrew Kim
-- Immaculate Munde
+
+### Andrew Kim
+<img src="https://github.com/user-attachments/assets/fa7fb078-26e8-482e-8f90-012e0d36a368" width="150" alt="Andrew Kim">
+
+### Immaculate Munde
+<img src="https://github.com/user-attachments/assets/98872fc5-0787-4a76-b4f7-1e2e6f70a251" width="150" alt="Immaculate Munde">
 
 Built for ALX x Google Cloud Hackathon 2025
