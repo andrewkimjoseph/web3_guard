@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web3 Guard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>🛡️ Web3 Guard</h2>
+      <p class="subtitle">AI-Powered Transaction Security</p>
+    </div>
+
+    <div class="input-section">
+      <label for="txInput">Paste Transaction Data:</label>
+      <textarea 
+        id="txInput" 
+        placeholder='Example: {"to": "0x...", "value": "0.1 ETH", "function": "transfer"}'
+      ></textarea>
+    </div>
+
+    <button id="analyzeBtn" class="primary-btn">
+      Analyze Transaction
+    </button>
+
+    <!-- Test Buttons -->
+    <div class="test-section">
+      <p class="test-label">Quick Tests:</p>
+      <div class="test-buttons">
+        <button class="test-btn safe-test" data-type="safe">✅ Safe TX</button>
+        <button class="test-btn risky-test" data-type="risky">⚠️ Risky TX</button>
+        <button class="test-btn scam-test" data-type="scam">❌ Scam TX</button>
+      </div>
+    </div>
+    
+    <div class="settings-link">
+      <a href="#" id="settingsLink">⚙️ Settings</a>
+    </div>
+
+    <!-- Loading State -->
+    <div id="loading" class="hidden">
+      <div class="spinner"></div>
+      <p>Analyzing transaction...</p>
+    </div>
+
+    <!-- Results -->
+    <div id="result" class="hidden">
+      <div id="verdict"></div>
+      <div id="explanation"></div>
+    </div>
+
+    <!-- Error State -->
+    <div id="error" class="hidden">
+      <p class="error-message"></p>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
