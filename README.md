@@ -51,6 +51,8 @@ Or use quick test buttons to see examples.
 - Mobile app version
 
 ## Team
-[Your name/team]
+[Team Duolingo]
+- Andrew Kim
+- Immaculate Munde
 
 Built for ALX x Google Cloud Hackathon 2024
